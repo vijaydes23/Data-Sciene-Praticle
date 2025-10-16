@@ -1,0 +1,119 @@
+UPDATED DATA SCIENCE PRACTICAL LIST
+Section 1: NumPy (2 Practicals)
+Practical 1: NumPy Basics and Array Operations
+Objective: Learn creation and manipulation of NumPy arrays.
+Tasks:
+- Create 1D, 2D arrays and perform indexing, slicing.
+- Perform element-wise and matrix operations.
+- Use functions like np.mean(), np.std(), np.dot().
+
+Outcome: Students will understand array manipulation and mathematical operations using NumPy.
+Practical 2: Numerical Computations and Broadcasting
+Objective: Apply advanced array operations.
+Tasks:
+- Perform broadcasting between different-shaped arrays.
+- Generate random arrays and apply statistical computations.
+- Implement linear algebra operations using numpy.linalg.
+
+Outcome: Students can perform vectorized computations efficiently.
+Section 2: Pandas (2 Practicals)
+Practical 3: Data Cleaning and Preprocessing with Pandas
+Objective: Load and clean a dataset.
+Tasks:
+- Import dataset (e.g., CSV file).
+- Handle missing values and duplicates.
+- Use groupby(), describe(), and filtering techniques.
+
+Outcome: Students can prepare data for analysis using Pandas.
+Practical 4: Exploratory Data Analysis (EDA)
+Objective: Perform descriptive analysis on a real-world dataset.
+Tasks:
+- Load dataset (e.g., Titanic, Iris, or custom CSV).
+- Analyze distributions, correlations, and categorical variables.
+- Use .corr(), .value_counts(), and pivot tables.
+
+Outcome: Students gain hands-on experience in summarizing and interpreting data.
+Section 3: Data Visualization (2 Practicals)
+Practical 5: Data Visualization using Matplotlib
+Objective: Learn plotting techniques.
+Tasks:
+- Create line, bar, histogram, and scatter plots.
+- Customize titles, labels, and legends.
+- Combine multiple plots using subplots.
+
+Outcome: Students can visualize data effectively.
+Practical 6: Data Visualization using Seaborn and Matplotlib
+Objective: Build advanced visualizations.
+Tasks:
+- Use Seaborn for heatmaps, pairplots, boxplots.
+- Create correlation heatmap of dataset.
+- Combine multiple Seaborn plots in one figure.
+
+Outcome: Students learn to interpret insights visually.
+Section 4: Machine Learning (4 Practicals)
+Practical 7: Data Preprocessing and Feature Engineering
+Objective: Learn how to prepare raw data for machine learning models.
+Tasks:
+- Handle missing data using SimpleImputer.
+- Encode categorical variables using LabelEncoder or OneHotEncoder.
+- Apply feature scaling using StandardScaler or MinMaxScaler.
+- Split the dataset into training and testing sets using train_test_split.
+
+Outcome: Students understand the importance of data preprocessing and can clean datasets for ML models.
+Tools Used: Pandas, Scikit-learn, NumPy.
+Practical 8: Supervised Learning – Regression Models
+Objective: Implement and evaluate regression algorithms.
+Tasks:
+- Load a dataset (e.g., Student Score or House Price Prediction).
+- Train Linear Regression and Polynomial Regression models.
+- Predict outcomes and evaluate with metrics: MAE, MSE, RMSE, and R² score.
+- Visualize regression line and residual errors using Matplotlib.
+
+Outcome: Students can apply regression to solve real-world prediction problems.
+Tools Used: Scikit-learn, Matplotlib, Pandas, NumPy.
+Practical 9: Supervised Learning – Classification Models
+Objective: Implement and compare classification algorithms.
+Tasks:
+- Load dataset (e.g., Iris, Breast Cancer, or custom dataset).
+- Train models: Logistic Regression, K-Nearest Neighbors (KNN), and Decision Tree Classifier.
+- Evaluate models using Confusion Matrix, Accuracy, Precision, Recall, and F1-score.
+- Visualize decision boundaries and confusion matrix heatmaps.
+
+Outcome: Students can classify data and evaluate model performance using key metrics.
+Tools Used: Scikit-learn, Matplotlib, Seaborn.
+Practical 10: Model Evaluation and Hyperparameter Tuning
+Objective: Evaluate model performance and optimize ML models.
+Tasks:
+- Implement cross-validation using KFold and cross_val_score.
+- Compare models (Linear, KNN, Decision Tree).
+- Perform hyperparameter tuning using GridSearchCV.
+- Analyze best model parameters and their performance metrics.
+
+Outcome: Students can assess models comprehensively and optimize parameters for better results.
+Tools Used: Scikit-learn, Pandas, NumPy.
+Section 5: Deep Learning (2 Practicals)
+Practical 11: Build a Neural Network using TensorFlow/Keras
+Objective: Understand structure and training of ANNs.
+Tasks:
+- Use Keras Sequential model.
+- Create input, hidden, output layers.
+- Train on MNIST or custom dataset.
+
+Outcome: Students can build and train basic neural networks.
+Practical 12: Image Classification using CNN
+Objective: Implement a Convolutional Neural Network.
+Tasks:
+- Use Keras to build CNN for image dataset (MNIST or CIFAR-10).
+- Train, validate, and evaluate accuracy.
+- Visualize sample predictions.
+
+Outcome: Students understand convolution and feature extraction concepts.
+Section 6: Mini Project (1 Practical)
+Practical 13: Chatbot using Machine Learning or Deep Learning
+Objective: Develop an interactive chatbot.
+Tasks:
+- Use NLP techniques to preprocess text (tokenization, lemmatization).
+- Implement a rule-based or ML-based chatbot using nltk or transformers.
+- Integrate a simple chat interface (CLI or Streamlit).
+
+Outcome: Students can apply complete ML/DL workflow to a real project.
